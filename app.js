@@ -698,8 +698,6 @@ Vue.createApp({
                     <label for="batch-run">Batch-run</label>
                 </div>
             </div>
-            <button v-if="!sorting" class="btn-danger"
-                @click="sorts[11].fn(true)">debug</button>
         </div>
     `,
 }).mount("#app");
